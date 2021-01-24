@@ -1,7 +1,6 @@
 .navbar{
   padding: 0 24px;
-  display: flex;
-  justify-content: space-between;
+  height: 57px;
   li{
     display: inline;
     font-family: LatoGoogle, Lato, LatoWeb, sans-serif;
@@ -9,8 +8,13 @@
     color: rgb(72, 72, 72);
     font-size: 15px;
     font-weight: 700;
-    padding: 16px 0 18px 0;
-    height: 56;
+    padding: 20px;
+  }
+  span{
+    padding: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    top: 10px;
   }
 }
 

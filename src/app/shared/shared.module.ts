@@ -6,6 +6,7 @@ import { NavbarComponent } from './templates/navbar/navbar.component';
 import {NzAvatarModule} from 'ng-zorro-antd/avatar';
 import {NzIconModule} from 'ng-zorro-antd/icon';
 import {NzInputModule} from 'ng-zorro-antd/input';
+import {NzGridModule} from 'ng-zorro-antd/grid';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import {NzInputModule} from 'ng-zorro-antd/input';
     SharedRoutingModule,
     NzAvatarModule,
     NzIconModule,
-    NzInputModule
+    NzInputModule,
+    NzGridModule
   ],
   exports:[
     NavbarComponent

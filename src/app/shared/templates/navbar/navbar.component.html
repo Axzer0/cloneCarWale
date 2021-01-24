@@ -1,16 +1,34 @@
-<div class="navbar">
-  <img src="https://imgd.aeplcdn.com/0x0/cw/static/icons/new-header/logo.svg"
-       width="136"
-       alt="CarWaleClone" title="CarWaleClone" style="display: inline">
-  <ul style="text-decoration: none;margin: 0;padding: 0; display: inline">
-    <li>New Cars</li>
-    <li>Used Car</li>
-    <li>Reviews & News</li>
-  </ul>
-  <input nz-input type="text" style="width: 100px">
-  <nz-avatar nzIcon="user" [nzShape]="'square'"></nz-avatar>
-  <nz-avatar nzIcon="user" [nzShape]="'square'"></nz-avatar>
-  <nz-avatar nzIcon="user"></nz-avatar>
+<div nz-row class="navbar" nzAlign="middle">
+  <div nz-col nzFlex="4">
+    <img src="https://imgd.aeplcdn.com/0x0/cw/static/icons/new-header/logo.svg"
+         width="136"
+         alt="CarWaleClone" title="CarWaleClone" style="display: inline">
+  </div>
+  <div nz-col nzFlex="16">
+    <ul style="text-decoration: none;margin: 0;padding: 0; display: inline">
+      <li>NEW CARS</li>
+      <li>USED CAR</li>
+      <li>REVIEWS & NEWS</li>
+    </ul>
+  </div>
+  <div nz-col>
+    <nz-input-group [nzSuffix]="suffixIconSearch" style="width: 320px;height: 47px;">
+      <input type="text" nz-input placeholder="Search" style="font-size: 16px"/>
+    </nz-input-group>
+    <ng-template #suffixIconSearch>
+      <i nz-icon nzType="search"></i>
+    </ng-template>
+   <span>
+     <i style="font-size: 25px; color: #9d9d9d" nz-icon nzType="environment" nzTheme="outline"></i>
+   </span>
+   <span>
+     <i style="font-size: 25px; color: #9d9d9d" nz-icon nzType="translation" nzTheme="outline"></i>
+   </span>
+   <span>
+     <i style="font-size: 25px; color: #9d9d9d" nz-icon nzType="user" nzTheme="outline"></i>
+   </span>
 
+ </div>
 </div>
+
 
