@@ -7,6 +7,7 @@ import {NzAvatarModule} from 'ng-zorro-antd/avatar';
 import {NzIconModule} from 'ng-zorro-antd/icon';
 import {NzInputModule} from 'ng-zorro-antd/input';
 import {NzGridModule} from 'ng-zorro-antd/grid';
+import {NzDropDownModule} from 'ng-zorro-antd/dropdown';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import {NzGridModule} from 'ng-zorro-antd/grid';
     NzAvatarModule,
     NzIconModule,
     NzInputModule,
-    NzGridModule
+    NzGridModule,
+    NzDropDownModule
   ],
   exports:[
     NavbarComponent
